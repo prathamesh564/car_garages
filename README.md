@@ -1,36 +1,184 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🚗 Car Service Landing Page
 
-## Getting Started
+A modern and responsive **Car Service Website Landing Page** built using **React.js** and **Tailwind CSS**.  
+The project includes a hero section, services cards, about section, statistics, and responsive design with dark mode support.
 
-First, run the development server:
+---
+
+## 📌 Features
+
+✨ Responsive design for desktop, tablet, and mobile  
+✨ Modern car service landing page UI  
+✨ Dark mode support using Tailwind CSS  
+✨ Hero section with CTA button  
+✨ Navigation bar  
+✨ Service cards with hover animations  
+✨ About us section  
+✨ Statistics counter section  
+✨ Brand showcase section  
+✨ Smooth UI transitions  
+
+---
+
+## 🛠️ Technologies Used
+
+- React.js
+- Tailwind CSS
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+
+---
+
+## 📂 Project Structure
+
+```
+Car-Service-Landing-Page/
+│
+├── public/
+│
+├── src/
+│   │
+│   ├── components/
+│   │
+│   ├── pages/
+│   │   └── Home.jsx
+│   │
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
+├── package.json
+├── tailwind.config.js
+├── postcss.config.js
+└── README.md
+```
+
+---
+
+## 🚀 Installation & Setup
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/car-service-landing-page.git
+```
+
+### 2. Navigate into project folder
+
+```bash
+cd car-service-landing-page
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Run development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 🎨 UI Sections
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 🏠 Hero Section
 
-## Learn More
+- Navigation menu
+- Car service heading
+- Call-to-action button
+- Car image
+- Statistics card
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 🔧 Services Section
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Includes:
 
-## Deploy on Vercel
+- Transformation Advising
+- Easy Drive Maintenance
+- Elite Auto Service
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Each card contains hover animation effects.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+### 👨‍🔧 About Section
+
+Contains:
+
+- Company introduction
+- Service benefits
+- Auto mechanic card
+- Vehicle care image
+
+---
+
+### 🌙 Dark Mode
+
+The website supports dark theme using Tailwind's dark mode classes.
+
+Example:
+
+```jsx
+dark:bg-black
+dark:text-white
+```
+
+---
+
+## 📸 Preview
+
+Landing page contains:
+
+- Dark hero banner
+- Responsive navigation
+- Service cards
+- Modern automotive theme
+
+---
+
+## 📦 Dependencies
+
+Main packages:
+
+```json
+{
+  "react": "latest",
+  "react-dom": "latest",
+  "tailwindcss": "latest"
+}
+```
+
+---
+
+## 💡 Future Improvements
+
+- Add React Router
+- Add booking form
+- Add backend API
+- Add authentication
+- Add database integration
+- Add real service pricing
+- Add animations using Framer Motion
+
+---
+
+## 👨‍💻 Author
+
+**Prathamesh V Shenoy**
+
+GitHub:
+```
+https://github.com/prathamesh564
+```
+---
+
+## ⭐ Support
+
+If you like this project, consider giving it a ⭐ on GitHub.
